@@ -9,7 +9,7 @@ import org.apache.spark.mllib.regression.LabeledPoint
 import org.apache.spark.mllib.tree.RandomForest
 import org.apache.spark.mllib.util.MLUtils
 import org.apache.spark.sql.SparkSession
-object RandomForestTest extends App {
+object RandomForestTest {
   def main(args: Array[String]): Unit = {
 
     val sparkConf = new SparkConf()
